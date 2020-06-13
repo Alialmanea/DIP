@@ -46,6 +46,7 @@ c.getBlue();
 
 <h5>Getting Width and Height of Image</h5>
 The height and width of the image can be get by calling the getWidth() and getHeight() methods of the BufferedImage class. Its syntax is given below
+
 ```
 int width = source_img.getWidth();
 int height = source_img.getHeight();
