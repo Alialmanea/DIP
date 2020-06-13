@@ -35,7 +35,8 @@ The pixel value can be received using the following syntax−
 Color c = new Color(source_img.getRGB(j, i));
 ```
 <h5>Getting RGB Values</h5>
-The method getRGB() takes the row and column index as a parameter and returns the appropriate pixel. In case of color image, it returns three values which are (Red, Green, Blue). They can be get as follows−
+The method getRGB() takes the row and column index as a parameter and returns the appropriate pixel. In case of color image, it returns three values which are (Red, Green, Blue). They can be get as follows
+
 ```
 c.getRed();
 c.getGreen();
