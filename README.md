@@ -55,6 +55,7 @@ int height = source_img.getHeight();
 By decreasing the value of red color and increasing the value of green color and the value for blue color will be between these two colors.
 
 The equation for a new grayscale image will be:
+
 <a href="https://static.javatpoint.com/tutorial/dip/images/dip-grayscale-to-rgb-conversion3.png"><img src="https://static.javatpoint.com/tutorial/dip/images/dip-grayscale-to-rgb-conversion3.png" title=""/></a>
 
 According to the above equation, red is used 30%, green is used 59%, and blue is used 11%. The contribution of green is highest.
@@ -72,5 +73,6 @@ image_result.setRGB(x, y, new Color(sum,sum,sum).getRGB());
 
 By Applying the equation in an image, we will get:
 
-<a href="GrayFilter/ba.jpg"><img src="GrayFilter/ba.jpg" title=""/></a><a href="GrayFilter/answer.png"><img src="GrayFilter/answer.png" title=""/></a>
+<a href="GrayFilter/ba.jpg"><img src="GrayFilter/ba.jpg" title=""/></a>
+<a href="GrayFilter/answer.png"><img src="GrayFilter/answer.png" title=""/></a>
 
