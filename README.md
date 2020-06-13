@@ -63,12 +63,13 @@ int newRed= (int) Math.round ((Red * 0.299));
 int newBlue=(int) Math.round ((Blue * 0.114));
 int newGreen=(int) Math.round ((Green * 0.587));
 ```
-
 The last step is to add all these three values and set it again to the corresponding pixel value. Its syntax is given below 
+
 ```
 int sum = newRed + newBlue +newGreen;
 image_result.setRGB(x, y, new Color(sum,sum,sum).getRGB());
 ```
+
 By Applying the equation in an image, we will get:
 
 <a href="GrayFilter/ba.jpg"><img src="GrayFilter/ba.jpg" title=""/></a><a href="GrayFilter/answer.png"><img src="GrayFilter/answer.png" title=""/></a>
