@@ -20,10 +20,10 @@ In Java, the BufferedImage class is used to handle images. You need to call getR
 
 ```
 for(int y = 0 ; y < source_img.getHeight() ; y++) {
-			for(int x = 0 ; x < source_img.getWidth() ; x++) {
-				Color pix =new Color(source_img.getRGB(x, y));
-				float Red=pix.getRed();
-				float Blue=pix.getBlue();
+   for(int x = 0 ; x < source_img.getWidth() ; x++) {
+	Color pix =new Color(source_img.getRGB(x, y));
+	float Red=pix.getRed();
+	float Blue=pix.getBlue();
         float Green=pix.getGreen();
         }
      }
